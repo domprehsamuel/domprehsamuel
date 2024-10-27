@@ -20,7 +20,7 @@ engine = pyttsx3.init()
 
 # Login Password Authentication
 def login():
-    password = "61bffea9215f65164ad18b45aff1436c0c165d0d5dd2087ef61b4232ba6d2c1a"  # Replace with your actual password
+    password = "61bffea9215f65164ad18b45aff1436c0c165d0d5dd2087ef61b4232ba6d2c1a"  # Replace with your actual password hash
 
     while True:
         engine.say("How would you like to enter your password? Say 'verbal' or 'manual'.")
